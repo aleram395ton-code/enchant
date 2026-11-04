@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "enchant",
+  "version": "${version}",
+  "name": "Custom Enchants",
+  "description": "Scarab's Grace, Bane of the Living, Typhoon",
+  "authors": ["Aleram"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enchant.CustomEnchantsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "fabric-api": "*"
+  }
+}
